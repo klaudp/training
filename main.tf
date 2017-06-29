@@ -51,7 +51,7 @@ resource "aws_instance" "web" {
 }
 
 variable "num_webs" {
-  default = "2"
+  default = "3"
 }
 
 output "public_ip" {
